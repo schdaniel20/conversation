@@ -1,0 +1,8 @@
+{
+    "name": "conversation-builder",
+    "autoload" : {
+        "psr-4": {
+            "Conversation\\": "src/"
+        }
+    }
+}

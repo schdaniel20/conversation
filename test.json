@@ -1,0 +1,76 @@
+[
+    {
+        "id" : 1,
+        "text":"Hello!",
+        "option" : [
+            {
+                "text":"Szia",
+                "next" : 2
+            },
+            {
+                "text":"Csa",
+                "next" : 2
+            },
+            {
+                "text":"Viszlat",
+                "next" : 3
+            }
+        ]
+    },
+    {
+        "id" : 2,
+        "text":"Miben segithetek?",
+        "option" : [
+            {
+                "text":"Hogy vagy?",
+                "next" : 4
+            },
+            {
+                "text":"Mizu?",
+                "next" : 5
+            },
+            {
+                "text":"Viszlat",
+                "next" : 3
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "text":"Viszlat $name",
+        "option" : []
+    },
+    {
+        "id" : 4,
+        "text":"Jol! Koszonom.",
+        "option" : [
+            {
+                "text":"Ennek orulok.",
+                "next" : 2
+            },
+            {
+                "text":"Remek",
+                "next" : 2
+            },
+            {
+                "text":"Akkor viszlat",
+                "next" : 3
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "text":"Semmi kulonos",
+        "option" : [
+            {
+                "text":"Rendben.",
+                "next" : 2
+            },
+            {
+                "text":"Akkor viszlat",
+                "next" : 3
+            }
+        ]
+    }
+    
+]
